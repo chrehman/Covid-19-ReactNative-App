@@ -15,7 +15,7 @@ function WorldStats({ navigation }) {
             const data = await fetch("https://world-population.p.rapidapi.com/worldpopulation", {
                 "method": "GET",
                 "headers": {
-                    "x-rapidapi-key": "df02d31564mshbb4784e074fce6dp123aacjsn975b88ad8233",
+                    "x-rapidapi-key": "2aab564cc1msh9aea17d26c5f038p146e7cjsn2a76f95a060c",
                     "x-rapidapi-host": "world-population.p.rapidapi.com"
                 }
             })
@@ -26,7 +26,7 @@ function WorldStats({ navigation }) {
             const data = await fetch("https://covid-19-data.p.rapidapi.com/totals", {
                 "method": "GET",
                 "headers": {
-                    "x-rapidapi-key": "df02d31564mshbb4784e074fce6dp123aacjsn975b88ad8233",
+                    "x-rapidapi-key": "2aab564cc1msh9aea17d26c5f038p146e7cjsn2a76f95a060c",
                     "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
                 }
             })
